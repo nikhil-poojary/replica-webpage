@@ -1,0 +1,283 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+.header{
+    width: 100%;
+    height: 85px;
+    background-color: rgb(65, 102, 160);
+    margin: 0;
+}
+.l-head{
+    width: 500px;
+    float: left;
+}
+.l-head h1{
+    font-family: Lato;
+    font-size: 42px;
+    color: white;
+    margin-left: 220px;
+    font-weight: bolder;
+    margin-top: 24px;
+}
+.r-head{
+    float: left;
+    display: inline;
+    margin-left: 320px;
+    margin-top: 12px;
+   
+}
+.one{
+    color: white;
+    font-family: Lato;
+    font-size: 14px;
+    margin-left: 0px;
+}
+.two{
+    
+   width: 140px;
+    margin-right: 12px;
+ 
+}
+button{
+    border: .5px solid rgba(0,0,0,0.3);
+    color: white;
+    padding: 3px 5px 3px 5px;
+    
+    background-color: rgb(61, 109, 186);
+}
+.edit{
+    color: rgb(190, 195, 247);
+    margin-left: 2px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+}
+.main{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(white, rgb(212, 216, 221));
+}
+.l-main{
+    float: left;
+     width: 800px;
+    height: 500px;
+    
+}
+.l-main p{
+    font-size: 20px;
+    margin-left: 220px;
+    font-family: Roboto;
+    margin-top: 10px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1px;
+    
+}
+.r-main{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+.r-main h2{
+    
+    font-size: 34px;
+    font-family: Lato;
+    font-weight: 800;
+    margin-top: px;
+}
+.r-main p{
+    font-family: Roboto;
+    font-size: 17px;
+    margin-top: -22px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.edit-main{
+    padding: 7px 48px 7px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(195, 214, 244);
+    font-size: 18px;
+    width: 130px;
+    
+}
+.edit-main1{
+    padding: 7px 48px 7px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(195, 214, 244);
+    font-size: 18px;
+    width: 130px;
+}
+.edit-main2{
+    padding: 7px 54px 7px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(195, 214, 244);
+    font-size: 18px;
+    width: 325px;
+    margin-top: 10px;
+}
+.edit-main3{
+    padding: 7px 54px 7px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(195, 214, 244);
+    font-size: 18px;
+    width: 325px;
+    margin-top: 10px;
+}
+.r-main h3{
+    font-family: Lato;
+    font-weight: 100;
+}
+#days{
+    padding: 5px 10px 5px 10px;
+    border: 1px solid rgb(195, 214, 244);
+    
+}
+#months{
+    padding: 5px 10px 5px 10px;
+    border: 1px solid rgb(195, 214, 244);
+}
+#years{
+    padding: 5px 10px 5px 10px;
+    border: 1px solid rgb(195, 214, 244);
+}
+
+.gend{
+    margin-top: 20px;
+}
+#fem{
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+#mal{
+     font-size: 18px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+.cookie{
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 100;
+    margin-top: 15px;
+    color: gray;
+}
+#btn{
+    padding: 5px 55px 5px 55px;
+    font-size: 20px;
+    background-color:  rgb(92, 160, 86);
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-weight: bold;
+    margin-top: -5px;
+   
+}
+#page{
+    margin-top: 40px;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: rgb(91, 91, 91);
+    -moz-margin-top: 30px;
+}
+.footer{
+    margin-left: 220px;
+    font-size: 13px;
+    margin-top: 44px;
+    color: rgb(65, 102, 160);
+    
+}
+.set{
+font-family: Roboto;
+    font-size: 11px;
+    text-decoration: none;
+    color: rgb(65, 102, 160);
+    position: absolute;
+    margin-left: 4px;
+}
+#adjust{
+    border: 0.5px solid lightgray;
+    margin-right: 280px;
+}
+.lang{
+    font-family: Lato;
+}
+#adjust-2{
+    border: .5px solid lightgray;
+}
+#color{
+    color: rgb(53, 104, 186);
+}
+::placeholder {
+    color: rgba(0,0,0,0.5);
+    text-align: left;
+   
+}
+.color-edit{
+    color: rgb(65, 102, 160);
+}
+#l-foot{
+    color: gray;
+    font-family: Roboto;
+    font-size: 10px;
+    margin-top: 20px;
+}    
+#dec{
+    text-decoration: none;
+    color: rgb(65, 102, 160);
+}
+#dec:hover{
+    border-bottom: 1px solid rgb(65, 102, 160);
+    
+}
+
+#demo{
+   background-color: white;
+    color: black;
+    font-family: Roboto;
+    font-size: 12px;
+      margin-left: 650px;
+    margin-top: -35px;
+     width: 340px;
+    height: 80px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+    position: absolute;
+   padding: 13px 10px 10px 11px;
+    border-radius: 2px;
+    
+}
+.colour{
+    color: rgb(65, 102, 160);
+}
+@-moz-document url-prefix() {
+    #page {
+        margin-top: 30px;
+    }
+.edit-main{
+ padding: 6px 48px 6px 10px;
+}
+.edit-main1{
+ padding: 6px 48px 6px 10px;
+}
+.edit-main2{
+ padding: 6px 54px 6px 10px;
+}
+.edit-main3{
+ padding: 6px 54px 6px 10px;
+}
+
+}
+        
+
+
+
